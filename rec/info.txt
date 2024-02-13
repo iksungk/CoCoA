@@ -1,0 +1,9 @@
+Reconstruction files should have the following data inside:
+
+- y: Normalized image stack
+- y_min: Minimum value of the original image stack
+- y_max: Maximum value of the original image stack
+- out_x_m: Estimated structure
+- out_k_m: Estimated PSF
+- wf: Estimated Zernike coefficients
+- loss_list: Loss values over training epochs
