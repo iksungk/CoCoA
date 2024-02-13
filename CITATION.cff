@@ -4,6 +4,8 @@ authors:
 - family-names: "Kang"
   given-names: "Iksung"
 orcid: "https://orcid.org/0000-0002-4009-6743"
-title:iksungk/CoCoA: Github CoCoA WF 1.0.0
+title: "Github CoCoA WF 1.0.0"
 version: v1.0.0
 date-released: 2024-02-13
+doi: 10.5281/zenodo.10655781
+url: "https://github.com/iksungk/CoCoA"
