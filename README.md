@@ -34,11 +34,20 @@ Due to repository storage limitations (less than 1GB in Github), datasets for re
 
 ## Citation
 If you find the paper useful in your research, please consider citing the paper:
-
-    @article{kang2023coordinate,
-      title={Coordinate-based neural representations for computational adaptive optics in widefield microscopy},
-      author={Kang, Iksung and Zhang, Qinrong and Yu, Stella X and Ji, Na},
-      journal={arXiv preprint arXiv:2307.03812},
-      year={2023}
+    
+    @article{kang_coordinate-based_2024,
+    	title = {Coordinate-based neural representations for computational adaptive optics in widefield microscopy},
+    	volume = {6},
+    	issn = {2522-5839},
+    	url = {https://doi.org/10.1038/s42256-024-00853-3},
+    	doi = {10.1038/s42256-024-00853-3},
+    	abstract = {Widefield microscopy is widely used for non-invasive imaging of biological structures at subcellular resolution. When applied to a complex specimen, its image quality is degraded by sample-induced optical aberration. Adaptive optics can correct wavefront distortion and restore diffraction-limited resolution but require wavefront sensing and corrective devices, increasing system complexity and cost. Here we describe a self-supervised machine learning algorithm, CoCoA, that performs joint wavefront estimation and three-dimensional structural information extraction from a single-input three-dimensional image stack without the need for external training datasets. We implemented CoCoA for widefield imaging of mouse brain tissues and validated its performance with direct-wavefront-sensing-based adaptive optics. Importantly, we systematically explored and quantitatively characterized the limiting factors of CoCoA’s performance. Using CoCoA, we demonstrated in vivo widefield mouse brain imaging using machine learning-based adaptive optics. Incorporating coordinate-based neural representations and a forward physics model, the self-supervised scheme of CoCoA should be applicable to microscopy modalities in general.},
+    	number = {6},
+    	journal = {Nature Machine Intelligence},
+    	author = {Kang, Iksung and Zhang, Qinrong and Yu, Stella X. and Ji, Na},
+    	month = jun,
+    	year = {2024},
+    	pages = {714--725},
     }
 
+    Kang, I., Zhang, Q., Yu, S.X. et al. Coordinate-based neural representations for computational adaptive optics in widefield microscopy. Nat Mach Intell 6, 714–725 (2024). https://doi.org/10.1038/s42256-024-00853-3
