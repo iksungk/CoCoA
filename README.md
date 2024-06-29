@@ -49,5 +49,3 @@ If you find the paper useful in your research, please consider citing the paper:
     	year = {2024},
     	pages = {714--725},
     }
-
-    Kang, I., Zhang, Q., Yu, S.X. et al. Coordinate-based neural representations for computational adaptive optics in widefield microscopy. Nat Mach Intell 6, 714–725 (2024). https://doi.org/10.1038/s42256-024-00853-3
