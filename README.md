@@ -33,7 +33,7 @@ The code estimates wavefront aberrations from the provided aberrated 3D image st
 
 On average, processing each image stack takes approximately 2 minutes on a machine equipped with a Tesla V100 GPU and an Intel Xeon Gold 6248 CPU. For a more detailed breakdown of computation times, refer to Tables 1 and 2 in the Supplementary Material.
 
-To process other datasets in the `/source/` folder—such as the fixed mouse brain slice (Figure 2) and mouse brain in vivo (Figure 5)—the same code can be used with different hyperparameter settings (see Table 1 in the Supplementary Material for details).
+To process other datasets in the `/source/` folder, such as the fixed mouse brain slice (Figure 2) and mouse brain in vivo (Figure 5), the same code can be used with different hyperparameter settings (see Table 1 in the Supplementary Material for details).
 
 Due to GitHub’s repository storage limitation (<1GB), datasets for additional figures in the main article and supplementary material are not hosted here. For access, please contact the corresponding authors, Iksung Kang and Qinrong Zhang.
 
