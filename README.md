@@ -27,7 +27,7 @@ The `/main/` folder contains code written in PyTorch, while the associated datas
 
 1. Reference image stack: 0-Mode678_rms_0nm_20230319_145228
 2. Aberrated image stack (with external aberration): 3B-Mode678_rms_75nm_20230319_145914
-3. Ground truth: External aberration applied to DWS.
+3. Ground truth: External aberration applied to DM (deformable mirrors).
 
 The code estimates wavefront aberrations from the provided aberrated 3D image stack and evaluates its accuracy by comparing the result with the ground truth. The expected outcome is an aberration estimate closely matching the ground truth. Additionally, users can visualize the reconstructed structure using the _out_x_m_ variable.
 
