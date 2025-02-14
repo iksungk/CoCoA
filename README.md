@@ -3,7 +3,7 @@ This is the public repository for CoCoA, a self-supervised computational adaptiv
 
 The paper describing CoCoA is published in Nature Machine Intelligence and can be found <a href="https://www.nature.com/articles/s42256-024-00853-3">here</a>.
 
-Please note that this repository is continuously updated. If you encounter any issues downloading the source files, you can download a ZIP archive of the repository <a href="https://drive.google.com/file/d/19qDMTL1ufG35QIo9cG0C-NApM1CDIPES/view?usp=sharing">here</a> (available on Google Drive).
+Please note that this repository is continuously updated. If you encounter any issues downloading the source files, you can download a ZIP archive of the repository <a href="https://drive.google.com/file/d/18mbbeQRcXFfIs9I-bkSXHfVo_RfeTHEA/view?usp=sharing">here</a> (available on Google Drive).
 
 ## **Abstract**
 Widefield microscopy is widely used for non-invasive imaging of biological structures at subcellular resolution. When applied to complex specimen, its image quality is degraded by sample-induced optical aberration. Adaptive optics can correct wavefront distortion and restore diffraction-limited resolution but require wavefront sensing and corrective devices, increasing system complexity and cost. Here, we describe a self-supervised machine learning algorithm, CoCoA, that performs joint wavefront estimation and three-dimensional structural information extraction from a single input 3D image stack without the need for external training dataset. We implemented CoCoA for widefield imaging of mouse brain tissues and validated its performance with direct-wavefront-sensing-based adaptive optics. Importantly, we systematically explored and quantitatively characterized the limiting factors of CoCoA's performance. Using CoCoA, we demonstrated the first in vivo widefield mouse brain imaging using machine-learning-based adaptive optics. Incorporating coordinate-based neural representations and a forward physics model, the self-supervised scheme of CoCoA should be applicable to microscopy modalities in general.
@@ -20,7 +20,7 @@ Widefield microscopy is widely used for non-invasive imaging of biological struc
     h5py-2.10.0
 
 ## Installation Guide
-Provided that all package dependencies are satisfied, no additional installation is necessary. The file `/main/wf_cocoa_demo.py` is self-contained and allows for the estimation of both structure and aberration from a provided 3D input image stack.
+Provided that all package dependencies are satisfied, no additional installation is necessary. The file `/main/wf_cocoa_demo.ipynb` is self-contained and allows for the estimation of both structure and aberration from a provided 3D input image stack.
 
 ## Code
 In the '/main/' folder, you will find the code written in PyTorch. The associated datasets can be found in the '/source/beads/' folder, which contains three distinct sets:
