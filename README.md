@@ -31,7 +31,7 @@ The `/main/` folder contains code written in PyTorch, while the associated datas
 
 The code estimates wavefront aberrations from the provided aberrated 3D image stack and evaluates its accuracy by comparing the result with the ground truth. The expected outcome is an aberration estimate closely matching the ground truth. Additionally, users can visualize the reconstructed structure using the _out_x_m_ variable.
 
-On average, processing each image stack takes approximately 2 minutes on a machine equipped with a Tesla V100 GPU and an Intel Xeon Gold 6248 CPU (or 1.5 minutes with a RTX 4090 GPU and an Intel i9-13900K CPU.) For a more detailed breakdown of computation times, refer to Tables 1 and 2 in the Supplementary Material.
+On average, processing each image stack takes approximately 2 minutes on a machine equipped with a Tesla V100 GPU and an Intel Xeon Gold 6248 CPU (or 1.5 minutes with an RTX 4090 GPU and an Intel i9-13900K CPU.) For a more detailed breakdown of computation times, refer to Tables 1 and 2 in the Supplementary Material.
 
 To process other datasets in the `/source/` folder, such as the fixed mouse brain slice (Figure 2) and mouse brain in vivo (Figure 5), the same code can be used with different hyperparameter settings (see Table 1 in the Supplementary Material for details).
 
