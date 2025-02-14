@@ -35,7 +35,7 @@ On average, processing each image stack takes approximately 2 minutes on a machi
 
 To process other datasets in the `/source/` folder, such as the fixed mouse brain slice (Figure 2) and mouse brain in vivo (Figure 5), the same code can be used with different hyperparameter settings (see Table 1 in the Supplementary Material for details).
 
-Due to GitHub’s repository storage limitation (<1GB), datasets for additional figures in the main article and supplementary material are not hosted here. For access, please contact the corresponding authors, Iksung Kang and Qinrong Zhang.
+Due to GitHub’s repository storage limitation (< 1GB), datasets for additional figures in the main article and supplementary material are not hosted here. For access, please contact the corresponding authors, Iksung Kang and Qinrong Zhang.
 
 ## Citation
 If you find the paper useful in your research, please consider citing the paper:
