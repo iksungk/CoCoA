@@ -1,7 +1,7 @@
 # Coordinate-based neural representations for computational adaptive optics in widefield microscopy
 This is the public repository for CoCoA, a self-supervised computational adaptive optics method for widefield microscopy. CoCoA (Coordinate-based neural representations for Computational Adaptive optics) jointly estimates wavefront aberrations and sample structures based on a single image stack acquired from widefield fluorescence microscopy.
 
-The paper describing CoCoA is published in Nature Machine Intelligence and can be found <a href="https://www.nature.com/articles/s42256-024-00853-3">here</a>.
+The paper describing CoCoA is published in _Nature Machine Intelligence_ and can be found <a href="https://www.nature.com/articles/s42256-024-00853-3">here</a>.
 
 Please note that this repository is continuously updated. If you encounter any issues downloading the source files, you can download a ZIP archive of the repository <a href="https://drive.google.com/file/d/18mbbeQRcXFfIs9I-bkSXHfVo_RfeTHEA/view?usp=sharing">here</a> (available on Google Drive).
 
