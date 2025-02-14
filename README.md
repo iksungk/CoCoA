@@ -20,21 +20,22 @@ Widefield microscopy is widely used for non-invasive imaging of biological struc
     h5py-2.10.0
 
 ## Installation Guide
-Provided that all package dependencies are satisfied, no additional installation is necessary. The file `/main/wf_cocoa_demo.ipynb` is self-contained and allows for the estimation of both structure and aberration from a provided 3D input image stack.
+As long as all package dependencies are met, no additional installation is required. The file `/main/wf_cocoa_demo.ipynb` is self-contained and enables the estimation of both structure and aberration from a given 3D input image stack.
 
 ## Code
-In the '/main/' folder, you will find the code written in PyTorch. The associated datasets can be found in the '/source/beads/' folder, which contains three distinct sets:
+The `/main/` folder contains code written in PyTorch, while the associated datasets are located in the `/source/beads/` folder. This folder includes three distinct datasets:
 
 1. Reference image stack: 0-Mode678_rms_0nm_20230319_145228
-2. Image stack with external aberration on top of the reference: 3A-Mode678_rms_75nm_20230319_145837
-3. Ground truth, which represents externally provided aberration data.
+2. Aberrated image stack (with external aberration): 3B-Mode678_rms_75nm_20230319_145914
+3. Ground truth: External aberration applied to DWS.
 
-The code demonstrates the aberration estimation from the provided the aberrated 3D image stack. It then evaluates the estimation accuracy by comparing it with the ground truth. The anticipated result is an aberration estimate that closely aligns with the ground truth aberration. Additionally, users can display the reconstructed structure via the _out_x_m_ variable. On average, the processing time for each input image stack is approximately 2 minutes using a machine equipped with a Tesla V100 GPU and Intel Xeon Gold 6248 CPU. For more detail in computation time, please check  Tables 1 and 2 in Supplementary Material.
+The code estimates wavefront aberrations from the provided aberrated 3D image stack and evaluates its accuracy by comparing the result with the ground truth. The expected outcome is an aberration estimate closely matching the ground truth. Additionally, users can visualize the reconstructed structure using the _out_x_m_ variable.
 
-In order to process other datasets in the '/source/' folder, e.g. fixed mouse brain slice (Figure 2) and mouse brain in vivo (Figure 5), the same code can be used but with different sets of hyperparameters (please refer to Table 1 in Supplementary Material for more detail).
+On average, processing each image stack takes approximately 2 minutes on a machine equipped with a Tesla V100 GPU and an Intel Xeon Gold 6248 CPU. For a more detailed breakdown of computation times, refer to Tables 1 and 2 in the Supplementary Material.
 
-Due to repository storage limitations (less than 1GB in Github), datasets for remaining figures in the main article and supplementary material are not available here. Please email the corresponding authors (Iksung Kang and Qinrong Zhang) for access.
+To process other datasets in the `/source/` folder—such as the fixed mouse brain slice (Figure 2) and mouse brain in vivo (Figure 5)—the same code can be used with different hyperparameter settings (see Table 1 in the Supplementary Material for details).
 
+Due to GitHub’s repository storage limitation (<1GB), datasets for additional figures in the main article and supplementary material are not hosted here. For access, please contact the corresponding authors, Iksung Kang and Qinrong Zhang.
 
 ## Citation
 If you find the paper useful in your research, please consider citing the paper:
